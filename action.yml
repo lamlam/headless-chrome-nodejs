@@ -1,0 +1,5 @@
+name: "Chrome Headless Docker Action for Node.js"
+description: "Chrome Headless Docker Action for Node.js"
+runs:
+  using: "docker"
+  image: "Dockerfile"
