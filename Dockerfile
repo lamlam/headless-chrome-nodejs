@@ -10,6 +10,3 @@ RUN apt-get update \
       --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD 1
-ENV PUPPETEER_EXECUTABLE_PATH /usr/bin/google-chrome-unstable
-
