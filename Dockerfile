@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM node:14-slim
 
 # https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker
 RUN apt-get update \
